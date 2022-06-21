@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
     h2{
         text-align: center;
     }
@@ -21,12 +23,14 @@
 }
 
 .aboutContent button {
-    width: 8rem;
+    width: 13rem;
 }
 
 
 .info{
-    gap: 13rem;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    // gap: 13rem;
 }
 
 
@@ -108,14 +112,16 @@
 
 .wrapper .backgroundImg {
     background-image: url(../assets/banner.jpg);
-    border: 2px solid blue;
-    height: 100vh;
+    width: 100vw;
+    height: 300px;
     background-repeat: no-repeat;
     background-image: cover;
+    background-size: cover;
 }
 
 .profile {
     background-color: $iceWhite;
+    padding-top: 50px;
 }
 
 .profile img {
