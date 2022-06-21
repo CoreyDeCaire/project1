@@ -7,13 +7,16 @@
     <title>Captured</title>
     <script src="https://kit.fontawesome.com/c94805bed8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto&display=swap"
+        rel="stylesheet">
 
 </head>
 <body>
     <!-- START of Header -->
     <header>
-        <div class="wrapper">
+        <div class="wrapper headerPicture">
             <!-- START of Nav Menu -->
             <nav class="siteNav">
                 <i class="fa-solid fa-bars"></i>
@@ -37,7 +40,7 @@
     <main>
         <!-- START of About Section -->
         <section class="about">
-            <div class="wrapper">
+            <div class="wrapper aboutContent">
                 <h2>What is Captured?</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum repellat mollitia tempora illo nesciunt, perferendis obcaecati dignissimos consectetur eveniet quidem natus ullam animi sapiente recusandae quasi neque, assumenda iusto? Aliquam.</p>
                 <button>Find out more</button>
@@ -75,30 +78,45 @@
 
         <!-- START of Links Section -->
         <section class="links">
-            <div class="wrapper">
+            <div class="wrapper linksFlex">
                 <div class="camera">
-                    <i class="fa-solid fa-camera"></i>
-                    <a href="#">Top Picks</a>
+                    <div class="topPicks">
+                        <i class="fa-solid fa-camera"></i>
+                        <a href="#">Top Picks</a>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum beatae dolores, cum velit, voluptatibus architecto soluta similique, quidem dolorem quaerat magnam officia tenetur nam libero ad ipsa modi consectetur! Obcaecati.</p>
                 </div>
                 <div class="blogLink">
-                    <i class="fa-solid fa-file"></i>
-                    <a href="#">Blog</a>
+                    <div class="blogAnchor">
+                        <i class="fa-solid fa-file"></i>
+                        <a href="#">Blog</a>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa nulla eius in vitae doloremque cupiditate delectus nisi commodi natus quidem voluptatem molestias atque debitis impedit, facilis magni veritatis? Dicta, similique.</p>
                 </div>
                 <div class="community">
-                    <i class="fa-solid fa-users"></i>
-                    <a href="#">Community</a>
+                    <div class="communityAnchor">
+                        <i class="fa-solid fa-users"></i>
+                        <a href="#">Community</a>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, quia! Aperiam voluptatibus sit soluta architecto placeat autem sunt rerum est magnam mollitia, ut voluptatem harum iste reiciendis ducimus aliquam. Soluta.</p>
                 </div>
                 <div class="getInTouch">
-                    <i class="fa-solid fa-phone-flip"></i>
-                    <a href="#">Get In Touch</a>
+                    <div class="getInTouchAnchor">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <a href="#">Get In Touch</a>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur excepturi ipsa quia eveniet animi magnam impedit labore debitis veritatis libero, laboriosam eligendi vitae eos. Incidunt perferendis voluptas dolorem blanditiis alias.</p>
                 </div>
             </div>
         </section>
         <!-- END of Links Section -->
 
         <!-- START of Background Image Section -->
-        <section class="backgroundImg">
-            
+        <section>
+            <div class="wrapper">
+                <div class="backgroundImg">
+                </div>
+            </div>
         </section>
         <!-- END of Background Image Section -->
         <!-- START of Profile Section -->
@@ -118,9 +136,9 @@
         <!-- START of Gallery Section -->
         <section class="gallery">
             <div class="wrapper">
-                <div><img src="../project1-captured/assets/gallery-image-1.jpg" alt="picture of the back of a digital camera on a tripod"></div>
-                <div><img src="../project1-captured/assets/gallery-image-2.jpg" alt="A picture of a camera lens hidden in some bushes"></div>
-                <div><img src="../project1-captured/assets/gallery-image-3.jpg" alt="a picture of a nikon camera"></div>
+                <div class="galleryImgContainer"><img src="../project1-captured/assets/gallery-image-1.jpg" alt="picture of the back of a digital camera on a tripod"></div>
+                <div class="galleryImgContainer"><img src="../project1-captured/assets/gallery-image-2.jpg" alt="A picture of a camera lens hidden in some bushes"></div>
+                <div class="galleryImgContainer"><img src="../project1-captured/assets/gallery-image-3.jpg" alt="a picture of a nikon camera"></div>
             </div>
         </section>
 

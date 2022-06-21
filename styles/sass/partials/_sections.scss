@@ -1,0 +1,152 @@
+
+.about {
+    background-color: $iceWhite;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutContent button {
+    width: 8rem;
+}
+
+
+.info{
+    gap: 13rem;
+}
+
+
+.info p {
+    margin: 20px 0;
+}
+
+.skills,
+.gear {
+    display: flex;
+    background: $solidWhite;
+}
+
+
+.skillsText,
+.gearText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.leftSkillsImg{
+    object-fit: cover;
+    width: 50%;
+    box-shadow: 30px 30px $primary;
+}
+
+
+.rightGearImg{
+    display: flex;
+    width: 50%;
+    box-shadow: -30px 30px $primary;
+}
+
+.links{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 50px;
+
+}
+
+.linksFlex {
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        width: 50%;
+    }
+}
+
+
+
+.links i {
+    background-color: $secondary;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+}
+
+.topPicks {
+    display: flex;
+}
+
+.blogAnchor {
+    display: flex;
+}
+
+.communityAnchor {
+    display: flex;
+}
+
+.getInTouchAnchor {
+    display: flex;
+}
+
+
+
+.wrapper .backgroundImg {
+    background-image: url(../assets/banner.jpg);
+    border: 2px solid blue;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.profile {
+    background-color: $iceWhite;
+}
+
+.profile img {
+    box-shadow: 30px 30px $primary;
+    width: 50%;
+}
+
+.profileText{
+    width: 70%;
+}
+
+.profile .wrapper {
+    display: flex;
+}
+.smallBox {
+    width: 50%;
+}
+
+.gallery .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.gallery .wrapper img{
+    border: 2px solid red;
+
+}
+
+.galleryImgContainer{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc( (100% / 3) - 40px );
+}
