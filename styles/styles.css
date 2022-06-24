@@ -296,7 +296,7 @@ header {
   background-size: cover;
   margin-bottom: 0;
   background-color: #FAFAFA;
-  height: 50vh;
+  height: 60vh;
   background-repeat: no-repeat;
 }
 
@@ -348,8 +348,15 @@ h1 {
   background-size: cover;
   margin-bottom: 0;
   background-color: #FAFAFA;
-  height: 50vh;
+  height: 60vh;
   background-repeat: no-repeat;
+}
+
+.formContainer {
+  width: 60%;
+  margin-top: -100px;
+  z-index: 10;
+  position: relative;
 }
 
 .blogHeader {
@@ -625,14 +632,26 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 2px solid red;
-  -webkit-box-shadow: -30px 0px #FDFA69;
-          box-shadow: -30px 0px #FDFA69;
+  -webkit-box-shadow: -15px 16px 0px 5px #FDFA69;
+          box-shadow: -15px 16px 0px 5px #FDFA69;
   padding: 60px 40px 40px;
+  background-color: #FAFAFA;
+}
+
+.socialIconsInfo {
+  width: 50%;
 }
 
 .contactInfo {
+  text-align: right;
   background-color: #FAFAFA;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.contactInfo p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 textarea {
@@ -648,9 +667,47 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-bottom: 20px;
+  text-align: right;
 }
 
 .socialIcons a {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+h5 {
+  font-family: "Playfair Display";
+  letter-spacing: 1.1px;
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#name {
+  margin-right: 25px;
+  border: none;
+  border-bottom: 2px solid #4CEEA7;
+}
+
+#email {
+  border: none;
+  border-bottom: 2px solid #4CEEA7;
+}
+
+#message {
+  border: 2px solid #4CEEA7;
 }

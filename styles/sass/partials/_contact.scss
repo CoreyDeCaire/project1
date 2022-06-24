@@ -1,0 +1,23 @@
+.contact {
+    display: flex;
+    height: 50vh;
+}
+
+.input {
+    display: flex;
+}
+
+#name {
+    margin-right: 25px;
+    border: none;
+    border-bottom: 2px solid $secondary;
+}
+
+#email {
+    border: none;
+    border-bottom: 2px solid $secondary;
+}
+
+#message {
+    border: 2px solid $secondary;
+}
