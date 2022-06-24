@@ -48,9 +48,9 @@ h1{
     position: absolute;
     width: 30%;
     z-index: 10;
-    box-shadow: 0 -15px 0px 12px $primary,
-            0 15px 0px 12px $primary,
-            -15px 0 0px 12px $primary;
+    box-shadow: 0 -15px 0px 1px $primary,
+            0 15px 0px 1px $primary,
+            -15px 0 0px 16px $primary;
 }
 
 .contactHeader{
@@ -61,6 +61,16 @@ h1{
     background-color: $solidWhite;
     height: 50vh;
     background-repeat: no-repeat;
+}
+
+.blogHeader{
+    background-image: url(../assets/blog-header.jpg);
+        position: relative;
+        background-size: cover;
+        margin-bottom: 0;
+        background-color: $solidWhite;
+        height: 50vh;
+        background-repeat: no-repeat;
 }
 
 h2 {

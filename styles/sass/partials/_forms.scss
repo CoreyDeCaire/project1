@@ -1,0 +1,32 @@
+main {
+    background-color: $iceWhite;
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    box-shadow: -30px 0px $primary;
+    padding: 60px 40px 40px;
+
+}
+
+.contactInfo {
+    background-color: $solidWhite;
+}
+
+textarea {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialIcons a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

@@ -5,10 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <p>Corey is Testing things
-        
-    </p>
+    <header class="blogHeader">
+        <div class="wrapper headerPicture">
+            <!-- START of Nav Menu -->
+            <nav class="siteNav">
+                <i class="fa-solid fa-bars"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- END of Nav Menu -->
+            <h2>BLOG</h2>
+        </div>
+    </header>
+
+    <!-- MAIN Section -->
+    <main class="contact" id="mainContent">
+        <div class="wrapper">
+            <form action="">
+    
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" id="name" placeholder="Name">
+    
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" id="email" placeholder="Email">
+                
+    
+                <label for="message" class="sr-only">Message for me</label>
+                <textarea id="message" cols="30" rows="10" placeholder="Message for me"></textarea>
+    
+                <button type="submit" class="button shopButton">SUBMIT</button>
+    
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="copyright">
+            <p class="smallCopy">Copyright © 2018 HackerYou</p>
+        </div>
+    </footer>
 </body>
 </html>
