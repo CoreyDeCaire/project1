@@ -33,10 +33,10 @@ li a {
 
 
 h1{
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-    z-index: 10;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    z-index: 30;
     text-transform: uppercase;
 }
 
@@ -44,7 +44,29 @@ h1{
 .headerImgContainer {
 
     right: 0;
-    top: 4rem;
+    top: 10rem;
     position: absolute;
     width: 30%;
+    z-index: 10;
+    box-shadow: 0 -15px 0px 12px $primary,
+            0 15px 0px 12px $primary,
+            -15px 0 0px 12px $primary;
+}
+
+.contactHeader{
+    background-image: url(../assets/contact-header.jpg);
+    position: relative;
+    background-size: cover;
+    margin-bottom: 0;
+    background-color: $solidWhite;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    z-index: 30;
+    text-transform: uppercase;
 }

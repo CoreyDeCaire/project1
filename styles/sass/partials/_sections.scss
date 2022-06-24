@@ -7,7 +7,7 @@
     align-items: center;
     padding-top: 250px;
     padding-bottom: 250px;
-    h2{
+    h3{
         text-align: center;
     }
     p{
@@ -28,9 +28,13 @@
 
 
 .info{
+    display: flex;
+    flex-direction: column;
     padding-top: 75px;
     padding-bottom: 75px;
-    // gap: 13rem;
+    background-color: $solidWhite;
+    gap: 3rem;
+
 }
 
 
@@ -38,10 +42,15 @@
     margin: 20px 0;
 }
 
+// .skills{
+//     margin-bottom: 2;
+// }
+
 .skills,
 .gear {
     display: flex;
     background: $solidWhite;
+    gap: 10rem;
 }
 
 
@@ -51,20 +60,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 30%;
+    // width: 30%;
+    width: 100%;
     margin: 0 auto;
+}
+
+.gearText{
+    align-items: flex-end;
+    text-align: right;
+    margin-left: 70px;
 }
 
 .leftSkillsImg{
     object-fit: cover;
-    width: 50%;
+    // width: 35%;
+    width: 100%;
+    
+}
+
+.leftSkillsImg img {
     box-shadow: 30px 30px $primary;
 }
 
 
 .rightGearImg{
-    display: flex;
-    width: 50%;
+    object-fit: cover;
+    // width: 35%;
+    width: 100%;
+}
+
+.rightGearImg img{
     box-shadow: -30px 30px $primary;
 }
 
@@ -94,23 +119,28 @@
 
 .topPicks {
     display: flex;
+    gap: 1rem;
 }
 
 .blogAnchor {
     display: flex;
+    gap: 1rem;
 }
 
 .communityAnchor {
     display: flex;
+    gap: 1rem;
 }
 
 .getInTouchAnchor {
     display: flex;
+    gap: 1rem;
 }
 
 
 
-.wrapper .backgroundImg {
+
+.backgroundImg {
     background-image: url(../assets/banner.jpg);
     width: 100vw;
     height: 300px;
@@ -144,11 +174,6 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-}
-
-.gallery .wrapper img{
-    border: 2px solid red;
-
 }
 
 .galleryImgContainer{
