@@ -357,6 +357,7 @@ h1 {
   margin-top: -100px;
   z-index: 10;
   position: relative;
+  margin-right: 5%;
 }
 
 .blogHeader {
@@ -634,7 +635,7 @@ main {
           flex-direction: column;
   -webkit-box-shadow: -15px 16px 0px 5px #FDFA69;
           box-shadow: -15px 16px 0px 5px #FDFA69;
-  padding: 60px 40px 40px;
+  padding: 70px 40px 40px;
   background-color: #FAFAFA;
 }
 
@@ -643,7 +644,7 @@ main {
 }
 
 .contactInfo {
-  margin-top: 50px;
+  margin-top: 15%;
   margin-right: 25px;
   margin-left: 25%;
 }
@@ -714,4 +715,88 @@ body {
 
 #message {
   border: 2px solid #4CEEA7;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  letter-spacing: 1px;
+  padding-top: 15px;
+  margin-bottom: none;
+}
+
+.blogImgContainer {
+  top: 8rem;
+}
+
+.blogImgContainer img {
+  width: 60%;
+  margin-left: 40%;
+  -webkit-box-shadow: -10px 30px 0px 4px #FDFA69;
+          box-shadow: -10px 30px 0px 4px #FDFA69;
+}
+
+.greatLocations {
+  -webkit-box-shadow: -5px 5px 0px 6px #FDFA69;
+          box-shadow: -5px 5px 0px 6px #FDFA69;
+  margin-left: 40%;
+  padding-left: 45px;
+  padding-right: 100px;
+  padding-bottom: 5px;
+}
+
+h5 {
+  text-transform: uppercase;
+}
+
+.recentPosts ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
+  text-transform: none;
+}
+
+.leftSideContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+}
+
+.leftSideContainer img {
+  width: 100%;
+}
+
+.commentContainer {
+  width: 60%;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+
+.topComment img {
+  width: 10%;
+}
+
+.bottomComment img {
+  width: 10%;
+}
+
+.formBlogContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 40px 40px;
+  background-color: #FAFAFA;
 }
