@@ -14,10 +14,9 @@ main {
 }
 
 .contactInfo {
-    text-align: right;
-    background-color: $solidWhite;
     margin-top: 50px;
     margin-right: 25px;
+    margin-left: 25%;
 }
 
 .contactInfo p{
@@ -34,7 +33,6 @@ textarea {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    text-align: right;
 }
 
 .socialIcons a {

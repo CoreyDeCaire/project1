@@ -1,9 +1,14 @@
+body{
+    background-color: $solidWhite;
+}
+
+
 .contact {
     display: flex;
     height: 50vh;
 }
 
-.input {
+.inputContainer {
     display: flex;
 }
 
@@ -11,11 +16,13 @@
     margin-right: 25px;
     border: none;
     border-bottom: 2px solid $secondary;
+    width: 50%;
 }
 
 #email {
     border: none;
     border-bottom: 2px solid $secondary;
+    width: 50%;
 }
 
 #message {

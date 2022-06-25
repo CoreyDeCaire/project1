@@ -643,10 +643,9 @@ main {
 }
 
 .contactInfo {
-  text-align: right;
-  background-color: #FAFAFA;
   margin-top: 50px;
   margin-right: 25px;
+  margin-left: 25%;
 }
 
 .contactInfo p {
@@ -668,7 +667,6 @@ textarea {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 20px;
-  text-align: right;
 }
 
 .socialIcons a {
@@ -684,6 +682,10 @@ h5 {
   margin-bottom: 20px;
 }
 
+body {
+  background-color: #FAFAFA;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -691,7 +693,7 @@ h5 {
   height: 50vh;
 }
 
-.input {
+.inputContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -701,11 +703,13 @@ h5 {
   margin-right: 25px;
   border: none;
   border-bottom: 2px solid #4CEEA7;
+  width: 50%;
 }
 
 #email {
   border: none;
   border-bottom: 2px solid #4CEEA7;
+  width: 50%;
 }
 
 #message {
