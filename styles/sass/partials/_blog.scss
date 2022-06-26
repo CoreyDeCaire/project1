@@ -1,6 +1,6 @@
-// .blogMain {
-//     display: flex;
-// }
+.blogMain {
+    margin-bottom: 40px;
+}
 
 h4 {
     text-transform: uppercase;
@@ -8,7 +8,12 @@ h4 {
     font-size: 32px;
     letter-spacing: 1px;
     padding-top: 15px;
-    margin-bottom: none;
+    margin-bottom: 0;
+}
+
+.mainBlogContent {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .blogImgContainer{
@@ -16,14 +21,14 @@ h4 {
 }
 
 .blogImgContainer img {
-    width: 60%;
-    margin-left: 40%;
+    width: 90%;
+    margin-left: 10%;
     box-shadow: -10px 30px 0px 4px $primary;
 }
 
 .greatLocations {
     box-shadow: -5px 5px 0px 6px $primary;
-    margin-left: 40%;
+    margin-left: 10%;
     padding-left: 45px;
     padding-right: 100px;
     padding-bottom: 5px;
@@ -45,6 +50,7 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 30%;
+    margin-top: 10%;
 }
 
 .leftSideContainer img {
@@ -55,10 +61,20 @@ h5 {
     width: 60%;
     margin-left: 40%;
     margin-right: 5%;
+    margin-top: 5%;
+    padding-right: 100px;
 }
 
 .topComment img {
     width: 10%;
+}
+
+.topComment p {
+    margin-left: 15%;
+}
+
+.bottomComment p {
+    margin-left: 15%;
 }
 
 .bottomComment img {
@@ -70,4 +86,6 @@ h5 {
     flex-direction: column;
     padding: 70px 40px 40px;
     background-color: $solidWhite;
+    width: 60%;
+    margin-left: 40%;
 }
