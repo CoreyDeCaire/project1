@@ -233,6 +233,7 @@ img {
 h1 {
   font-size: 138px;
   font-family: "Playfair Display";
+  text-shadow: 0.3px 0.3px #FAFAFA;
 }
 
 h2 {
@@ -443,6 +444,7 @@ h2 {
   display: flex;
   background: #FAFAFA;
   gap: 10rem;
+  padding-top: 30px;
 }
 
 .skillsText,
@@ -516,7 +518,7 @@ h2 {
 .links i {
   background-color: #4CEEA7;
   border-radius: 50%;
-  padding: 5px;
+  padding: 7px;
   height: 30px;
 }
 
@@ -559,7 +561,8 @@ h2 {
 
 .profile {
   background-color: #EFFDF3;
-  padding-top: 50px;
+  padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 .profile img {
@@ -590,6 +593,7 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 50px;
+  padding-bottom: 100px;
 }
 
 .galleryImgContainer {
@@ -761,8 +765,22 @@ h4 {
   padding-bottom: 5px;
 }
 
+.rightSideContainer {
+  width: 65%;
+}
+
 h5 {
   text-transform: uppercase;
+}
+
+.recentPosts ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .recentPosts ul li {
@@ -789,6 +807,20 @@ h5 {
 
 .leftSideContainer img {
   width: 100%;
+}
+
+.leftSideContainer h5 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.leftSideContainer p {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.boldText {
+  font-weight: 700;
 }
 
 .commentContainer {

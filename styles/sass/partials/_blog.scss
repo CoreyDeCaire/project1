@@ -34,8 +34,17 @@ h4 {
     padding-bottom: 5px;
 }
 
+.rightSideContainer {
+    width: 65%;
+}
+
 h5 {
     text-transform: uppercase;
+}
+
+.recentPosts ul {
+    display: flex;
+    flex-direction: column;
 }
 
 .recentPosts ul li {
@@ -55,6 +64,20 @@ h5 {
 
 .leftSideContainer img {
     width: 100%;
+}
+
+.leftSideContainer h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leftSideContainer p {
+    text-align: left;
+    margin-left: 35px;
+}
+
+.boldText {
+    font-weight: 700;
 }
 
 .commentContainer {

@@ -51,6 +51,7 @@
     display: flex;
     background: $solidWhite;
     gap: 10rem;
+    padding-top: 30px;
 }
 
 
@@ -113,7 +114,7 @@
 .links i {
     background-color: $secondary;
     border-radius: 50%;
-    padding: 5px;
+    padding: 7px;
     height: 30px;
 }
 
@@ -151,7 +152,8 @@
 
 .profile {
     background-color: $iceWhite;
-    padding-top: 50px;
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
 
 .profile img {
@@ -174,6 +176,7 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    padding-bottom: 100px;
 }
 
 .galleryImgContainer{
