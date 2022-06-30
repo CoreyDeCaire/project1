@@ -880,6 +880,10 @@ h5 {
         flex-wrap: wrap;
     text-shadow: 0.3px 0.3px #FAFAFA;
   }
+
+  .socialIconsInfo {
+    margin-right: 70px;
+  }
 }
 @media (max-width: 700px) {
   h1 {
@@ -913,6 +917,20 @@ h5 {
   .galleryImgContainer {
     width: 100%;
   }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .contact {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 105vh;
+  }
+  .contact .socialIconsInfo, .contact .formContainer {
+    width: 100%;
+    margin-bottom: 100px;
+  }
 }
 @media (max-width: 500px) {
   h1 {
@@ -931,5 +949,9 @@ h5 {
 
   .linksFlex div {
     width: 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }

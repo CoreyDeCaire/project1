@@ -12,6 +12,9 @@
         flex-wrap: wrap;
         text-shadow: .3px .3px $solidWhite;
     }
+    .socialIconsInfo {
+        margin-right: 70px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -34,6 +37,20 @@
     .galleryImgContainer {
         width: 100%;
     }
+    // CONTACT PAGE @Media
+    h2 {
+        font-size: 4rem;
+    }
+    
+    
+    .contact {
+        flex-wrap: wrap;
+        height: 105vh;
+        .socialIconsInfo, .formContainer{
+            width: 100%;
+            margin-bottom: 100px;
+        }
+    }
 }
 
 @media (max-width: 500px) {
@@ -50,5 +67,8 @@
     }
     .linksFlex div {
         width: 100%;
+    }
+    h2 {
+        font-size: 2rem;
     }
 }
