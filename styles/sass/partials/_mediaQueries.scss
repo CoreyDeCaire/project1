@@ -41,8 +41,7 @@
     h2 {
         font-size: 4rem;
     }
-    
-    
+
     .contact {
         flex-wrap: wrap;
         height: 105vh;
@@ -51,6 +50,30 @@
             margin-bottom: 100px;
         }
     }
+    // Blog Page @Media
+    .mainBlogContent {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .rightSideContainer {
+        width: 100%;
+    }
+    .leftSideContainer {
+        width: 100%;
+    }
+    .commentContainer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .topComment img, .bottomComment img {
+        width: 25%;
+    }
+    .formBlogContent {
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
 
 @media (max-width: 500px) {
