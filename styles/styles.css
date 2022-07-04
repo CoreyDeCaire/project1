@@ -884,6 +884,10 @@ h5 {
   .socialIconsInfo {
     margin-right: 70px;
   }
+
+  li a {
+    font-size: 15px;
+  }
 }
 @media (max-width: 700px) {
   h1 {
@@ -916,6 +920,41 @@ h5 {
 
   .galleryImgContainer {
     width: 100%;
+  }
+
+  h3, button {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+
+  .gearText, .skillsText {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .linksFlex div {
+    width: 100%;
+  }
+
+  .profileText {
+    width: 100%;
+  }
+
+  .profile img {
+    width: 100%;
+  }
+
+  .profileText, h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   h2 {
@@ -975,6 +1014,10 @@ h5 {
     position: relative;
     width: 50%;
     margin-bottom: 50px;
+  }
+
+  li a {
+    font-size: 10px;
   }
 
   .about {
