@@ -4,14 +4,16 @@
 
 
 h1 {
-    font-size: 138px;
+    // font-size: 138px;
+    font-size: 19vh;
+    max-width: 100%;
     font-family: 'Playfair Display';
     text-shadow: .3px .3px $solidWhite;
 }
 
 h2 {
     font-family: 'Playfair Display';
-    font-size: 92px;
+    font-size: 8vh;
     letter-spacing: 1px;
     text-transform: uppercase;
 }

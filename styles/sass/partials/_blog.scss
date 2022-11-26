@@ -91,10 +91,12 @@ h5 {
 .topComment {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .topComment img {
-    width: 100%;
+    width: 100px;
+    max-width: 100%;
 }
 
 .topComment p {
@@ -111,7 +113,8 @@ h5 {
 }
 
 .bottomComment img {
-    width: 100%;
+    width: 100px;
+    max-width: 100%;
 }
 
 .formBlogContent {

@@ -231,14 +231,15 @@ img {
 }
 
 h1 {
-  font-size: 138px;
+  font-size: 19vh;
+  max-width: 100%;
   font-family: "Playfair Display";
   text-shadow: 0.3px 0.3px #FAFAFA;
 }
 
 h2 {
   font-family: "Playfair Display";
-  font-size: 92px;
+  font-size: 8vh;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -355,7 +356,8 @@ h1 {
 }
 
 .formContainer {
-  width: 60%;
+  width: 700px;
+  max-width: 65%;
   margin-top: -100px;
   z-index: 10;
   position: relative;
@@ -838,10 +840,12 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 10px;
 }
 
 .topComment img {
-  width: 100%;
+  width: 100px;
+  max-width: 100%;
 }
 
 .topComment p {
@@ -862,7 +866,8 @@ h5 {
 }
 
 .bottomComment img {
-  width: 100%;
+  width: 100px;
+  max-width: 100%;
 }
 
 .formBlogContent {
@@ -912,6 +917,23 @@ h5 {
   }
   li a {
     font-size: 15px;
+  }
+}
+@media (max-width: 850px) {
+  .contact {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 105vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .socialIconsInfo, .contact .formContainer {
+    width: 100%;
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 700px) {
@@ -970,19 +992,6 @@ h5 {
         -ms-flex-align: center;
             align-items: center;
   }
-  h2 {
-    font-size: 4rem;
-    left: 35%;
-  }
-  .contact {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    height: 105vh;
-  }
-  .contact .socialIconsInfo, .contact .formContainer {
-    width: 100%;
-    margin-bottom: 100px;
-  }
   .mainBlogContent {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1030,9 +1039,6 @@ h5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .formBlogContent {
     width: 100%;
@@ -1062,8 +1068,5 @@ h5 {
   }
   .linksFlex div {
     width: 100%;
-  }
-  h2 {
-    font-size: 2rem;
   }
 }
