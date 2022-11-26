@@ -27,7 +27,7 @@ h4 {
 }
 
 .greatLocations {
-    box-shadow: -5px 5px 0px 6px $primary;
+    box-shadow: 5px 1px 0px 19px $primary;
     margin-left: 10%;
     padding-left: 45px;
     padding-right: 100px;
@@ -88,12 +88,22 @@ h5 {
     padding-right: 100px;
 }
 
+.topComment {
+    display: flex;
+    align-items: center;
+}
+
 .topComment img {
-    width: 10%;
+    width: 100%;
 }
 
 .topComment p {
     margin-left: 15%;
+}
+
+.bottomComment {
+    display: flex;
+    align-items: center;
 }
 
 .bottomComment p {
@@ -101,7 +111,7 @@ h5 {
 }
 
 .bottomComment img {
-    width: 10%;
+    width: 100%;
 }
 
 .formBlogContent {
@@ -111,4 +121,9 @@ h5 {
     background-color: $solidWhite;
     width: 60%;
     margin-left: 40%;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
 }
