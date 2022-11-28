@@ -938,7 +938,10 @@ h5 {
 }
 @media (max-width: 700px) {
   h1 {
-    font-size: 3rem;
+    font-size: 7vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .skills, .gear {
     display: -webkit-box;
@@ -1039,6 +1042,9 @@ h5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .formBlogContent {
     width: 100%;
@@ -1052,9 +1058,6 @@ h5 {
   }
 }
 @media (max-width: 500px) {
-  h1 {
-    font-size: 2rem;
-  }
   .headerImgContainer {
     position: relative;
     width: 50%;

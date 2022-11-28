@@ -35,7 +35,8 @@
 
 @media (max-width: 700px) {
     h1 {
-        font-size: 3rem;
+        font-size: 7vh;
+        display: flex;
     }
     .skills, .gear {
         display: flex;
@@ -112,7 +113,7 @@
     }
     h5 {
         display: flex;
-        // justify-content: center;
+        justify-content: center;
     }
 
     .formBlogContent {
@@ -128,7 +129,7 @@
 
 @media (max-width: 500px) {
     h1 {
-        font-size: 2rem;
+        // font-size: 2rem;
     }
     .headerImgContainer {
         position: relative;
